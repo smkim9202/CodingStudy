@@ -17,20 +17,12 @@
     <meta charset="utf-8">
     <title>비전공자 코딩공부</title>
     <link rel="stylesheet" href="style.css">
+    <script src="dayNightColor.js"></script>
   </head>
   <body>
-        <input type="button" value="blue" onclick="
-          var target_body = document.querySelector('body');
-        if(this.value === 'blue'){
-          target_body.style.backgroundColor='LightSteelBlue';
-          this.value = 'pink';
-        }else{
-          target_body.style.backgroundColor='LightPink';
-          this.value = 'blue';
-        }
-        ">
-
-
+    <input type="button" value="야" onclick="
+    nightDay(this);
+    ">
         <h1><a class="a" href="index.html">비전공자의 코딩공부</a></h1>
       <div class="columns">
         <ul class="list">
